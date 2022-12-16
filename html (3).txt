@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arlon Website</title>
+</head>
+
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="./Image/logo.jpg" alt="" class="logo">
+            <ul>
+                <li><a href="">Home</a> </li>
+                <li><a href="#aboutMe">About</a> </li>
+                <li><a href="#skills">Skills</a> </li>
+                <li><a href="#contact-me">Contact Me</a> </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Arlon Aguilar</h1>
+            <p>I am a Full Stack Python Developer</p>
+            <div>
+                <button class="button a-hire" type="button"><span> </span>Hire Me</a></button>
+                <button class="button" type="button"><span> </span>Talk with me</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <section id="aboutMe" class="me-section">
+        <h2> About Me !</h2>
+        <div class="col">
+            <img src="./arlon.jpg" alt="" class="row-img">
+            <div class="row">
+                Firstname: <br> <br>
+                Lastname: <br> <br>
+                Address: <br> <br>
+                Age: <br> <br>
+                Email: <br> <br>
+                Contact Number: <br> <br>
+            </div>
+
+            <div class="row">
+                John Arlon <br> <br>
+                Aguilar <br> <br>
+                Libod Salvacion Bato Catanduanes <br> <br>
+                19 <br> <br>
+                johnarlonaguilar7@gmail.com <br> <br>
+                09388798851 <br> <br>
+                <p class="qoutes">The best way to predict the future is to create it. <br>
+                    -Future Full Stack Developer
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <div class="parallax"></div>
+
+    <section id="skills">
+        <h2> My Skills !</h2>
+
+        <div class="col">
+            <div class="row">
+                <img src="./html.png" alt="">
+                <img src="./css.png" alt="">
+                <img src="./js.png" alt="">
+                <img src="./python.png" alt="">
+            </div>
+
+            <div class="row">
+                <img src="./excel.png" alt="">
+                <img src="./word.png" alt="">
+                <img src="./ppt.png" alt="">
+                <img src="./ps.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <article id="contact-me">
+        <h3 class="talks"> Let's Talk .. !</h3>
+        <div class="container">
+            <form>
+                <label>First Name</label>
+                <input type="text" placeholder="Your name..">
+
+                <label>Last Name</label>
+                <input type="text" placeholder="Your last name..">
+
+                <label>Email</label>
+                <input type="email" placeholder="Your email..">
+
+                <label>Gender</label>
+                <select>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit">
+            </form>
+        </div>
+    </article>
+</body>
+
+</html>
